@@ -5,17 +5,17 @@
     "main.js.map": "/sleep_data/static/js/main.b03785a6.chunk.js.map",
     "runtime-main.js": "/sleep_data/static/js/runtime-main.49b8c389.js",
     "runtime-main.js.map": "/sleep_data/static/js/runtime-main.49b8c389.js.map",
-    "static/js/2.ab9bd53f.chunk.js": "/sleep_data/static/js/2.ab9bd53f.chunk.js",
-    "static/js/2.ab9bd53f.chunk.js.map": "/sleep_data/static/js/2.ab9bd53f.chunk.js.map",
+    "static/js/2.18034cb4.chunk.js": "/sleep_data/static/js/2.18034cb4.chunk.js",
+    "static/js/2.18034cb4.chunk.js.map": "/sleep_data/static/js/2.18034cb4.chunk.js.map",
     "static/js/3.565b4100.chunk.js": "/sleep_data/static/js/3.565b4100.chunk.js",
     "static/js/3.565b4100.chunk.js.map": "/sleep_data/static/js/3.565b4100.chunk.js.map",
     "index.html": "/sleep_data/index.html",
     "static/css/main.cf5cb61c.chunk.css.map": "/sleep_data/static/css/main.cf5cb61c.chunk.css.map",
-    "static/js/2.ab9bd53f.chunk.js.LICENSE.txt": "/sleep_data/static/js/2.ab9bd53f.chunk.js.LICENSE.txt"
+    "static/js/2.18034cb4.chunk.js.LICENSE.txt": "/sleep_data/static/js/2.18034cb4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.49b8c389.js",
-    "static/js/2.ab9bd53f.chunk.js",
+    "static/js/2.18034cb4.chunk.js",
     "static/css/main.cf5cb61c.chunk.css",
     "static/js/main.b03785a6.chunk.js"
   ]
