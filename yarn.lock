@@ -1452,13 +1452,13 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mikkelgthang/sleep-app@https://api.observablehq.com/@mikkelgthang/sleep-app@2169.tgz?v=3":
-  version "2169.0.0"
-  resolved "https://api.observablehq.com/@mikkelgthang/sleep-app@2169.tgz?v=3#959f14b6a696895aa2a7608afcfd5880f5581f50"
-
 "@mikkelgthang/sleep-app@https://api.observablehq.com/@mikkelgthang/sleep-app@2197.tgz?v=3":
   version "2197.0.0"
   resolved "https://api.observablehq.com/@mikkelgthang/sleep-app@2197.tgz?v=3#062f6fd9fe70793e77d99da2ebd27da5a8e59ebb"
+
+"@mikkelgthang/sleep-app@https://api.observablehq.com/@mikkelgthang/sleep-app@2198.tgz?v=3":
+  version "2198.0.0"
+  resolved "https://api.observablehq.com/@mikkelgthang/sleep-app@2198.tgz?v=3#1272ccfbee372930f5f22b3a69f917876c229d02"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"

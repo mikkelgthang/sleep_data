@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mikkelgthang/sleep-app": "https://api.observablehq.com/@mikkelgthang/sleep-app@2197.tgz?v=3",
+    "@mikkelgthang/sleep-app": "https://api.observablehq.com/@mikkelgthang/sleep-app@2198.tgz?v=3",
     "@observablehq/runtime": "4",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",

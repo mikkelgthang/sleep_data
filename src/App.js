@@ -1,14 +1,13 @@
-import React, {useRef, useEffect} from "react";
-import {Runtime, Inspector} from "@observablehq/runtime";
-import notebook from "@mikkelgthang/sleep-app";
+import React, { useRef, useEffect } from 'react';
+import { Runtime, Inspector } from '@observablehq/runtime';
+import notebook from '@mikkelgthang/sleep-app';
 import './App.css';
 
 function App() {
   return (
-    <div className="sleepStatistics">
+    <div className="sleepStatistics bg-col">
       <SleepApp></SleepApp>
     </div>
-    
   );
 }
 
@@ -19,11 +18,13 @@ function SleepApp() {
 
   useEffect(() => {
     const runtime = new Runtime();
-    runtime.module(notebook, name => {
-      console.log(name)
-      if (name === "viewof sleep_view") return new Inspector(viewofSleep_viewRef.current);
-      if (name === "viewof sleep") return new Inspector(viewofSleepRef.current);
-      if (name === "viewof stat") return new Inspector(viewofStat_viewRef.current);
+    runtime.module(notebook, (name) => {
+      console.log(name);
+      if (name === 'viewof sleep_view')
+        return new Inspector(viewofSleep_viewRef.current);
+      if (name === 'viewof sleep') return new Inspector(viewofSleepRef.current);
+      if (name === 'viewof stat')
+        return new Inspector(viewofStat_viewRef.current);
       else return true;
     });
     return () => runtime.dispose();
@@ -31,10 +32,9 @@ function SleepApp() {
 
   return (
     <>
-      <div ref={viewofSleep_viewRef} />
-      <div ref={viewofSleepRef} />
-      <div ref={viewofStat_viewRef} />
-      
+      <div className="bg-col" ref={viewofSleep_viewRef} />
+      <div className="bg-col" ref={viewofSleepRef} />
+      <div className="bg-col" ref={viewofStat_viewRef} />
     </>
   );
 }
